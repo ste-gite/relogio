@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/Icone_Gite.ico" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <meta
+      name="description"
+      content="Cronômetro projetado para provas, avaliações e tarefas do Grupo de Instrução Tática e Especializada da Base Aérea de Natal (GITE/BANT)."
+    />
+
+    <!-- Open Graph: facebook -->
+    <meta
+      property="og:image"
+      content="https://brunovalniery.github.io/stopwatch/img/domgite2.png"
+    />
+    <meta
+      property="og:description"
+      content="Cronômetro para atividades avaliativas do GITE"
+    />
+    <meta property="og:title" content="Relógio GITE" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Relógio - GITE</title>
+  </head>
+  <body onload="startTime()">
+    <header>
+      <img src="./assets/domgite2.png" alt="watermark" id="logo" />
+    </header>
+    <div id="content">
+      <div id="watch">
+        <p id="txt"></p>
+      </div>
+      <div id="delimitadores">
+        <div id="in">
+          <p>Início:</p>
+          <input type="time" name="inicio" id="inicio" />
+        </div>
+        <div id="fm">
+          <p>Término:</p>
+          <input type="time" name="fim" id="fim" />
+        </div>
+      </div>
+    </div>
+    <!--
+    <footer>
+      <img src="./assets/bottom-image.svg" alt="watermark" />
+    </footer>
+    -->
+  </body>
+  <script src="./script.js"></script>
+</html>

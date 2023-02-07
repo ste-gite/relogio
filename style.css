@@ -3,34 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
-  display: flex;
-  align-items: center;
-  padding: 45px 30px 30px 30px;
-}
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 55px 30px 30px 30px;
+}
+
+header img {
+  width: 100px;
 }
 
 #content {
   justify-content: space-between;
   padding: 10px 250px 10px 250px;
-  font-family: Roboto;
   font-size: 40px;
 }
 
 #txt {
   padding: 10px;
-  font-size: 100px;
+  font-size: 150px;
   text-align: center;
 }
 
 #fm,
 #in {
   padding: 30px 100px;
+  align-items: center;
 }
 
 #delimitadores {
@@ -38,17 +46,24 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+/*
 h2 {
   font-family: "Roboto", sans-serif;
 }
+*/
 
 #inicio,
 #fim {
   text-align: center;
-  font-size: 30px;
-  font-family: Roboto Mono;
+  font-size: 40px;
   border: none;
+  background-color: whitesmoke;
+  color: crimson;
+}
+
+input {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 570px) {
